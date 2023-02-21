@@ -1,0 +1,10 @@
+server:
+  run_mode: debug
+  addr: :8080
+database:
+  dsn: root:root@tcp(127.0.0.1:3306)/douyin?charset=utf8mb4&parseTime=True&loc=Local
+video:
+  ip: 192.168.31.1
+  path: D:\code\go\simple-demo\public\
+jwt:
+  secret: 123456
